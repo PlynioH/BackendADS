@@ -1,0 +1,15 @@
+//Teste de Requisições REST
+
+@baseURL = http://localhost:4000
+
+GET {{baseURL}}/categorias
+Content-Type: application/json
+
+POST {{baseURL}}/categorias
+Content-Type: application/json
+
+
+{
+    "nome":"Churrascarias",
+    "status":"ativo"
+}
